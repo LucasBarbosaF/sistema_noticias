@@ -10,9 +10,9 @@ class NoticiaModel extends Authenticatable
 {
     use HasFactory, Notifiable;
 
-    protected $fillable = ['titulo', 'descricao', 'visualizacao'];
+    protected $fillable = ['titulo', 'descricao', 'visualizacao', 'categoria_id'];
 
-    protected $hidden = ['usuario_id', 'categoria_id'];
+    protected $hidden = ['usuario_id'];
 
     protected $table = 'noticias';
 
