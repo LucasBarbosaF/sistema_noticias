@@ -45,8 +45,8 @@ Configuração do Ambiente
 2. Primeiro, clone o repositório do projeto para a sua máquina:
 
 ```bash
-git clone https://github.com/LucasBarbosaF/teste-investidor10.git
-cd teste-investidor10
+git clone https://github.com/LucasBarbosaF/sistema-noticias.git
+cd sistema-noticias
 ```
 
 
